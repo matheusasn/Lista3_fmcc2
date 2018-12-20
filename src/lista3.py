@@ -1,3 +1,5 @@
+# Grupo: Matheus Augusto Silva Do Nascimento e Caio Cesar Nobrega Borges
+
 import cv2
 import os
 import numpy
@@ -14,6 +16,7 @@ for i in range(0, 6):
 	nova_imagem = leitor_da_imagem1*(i/float(5)) + leitor_da_imagem2*(1-i/float(5))
 	
 	cv2.imwrite("../output/Output%d.jpg" % (i + 1), nova_imagem)
+
 
 
 
