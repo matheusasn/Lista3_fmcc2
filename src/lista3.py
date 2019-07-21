@@ -1,4 +1,4 @@
-# Grupo: Matheus Augusto Silva Do Nascimento e Caio Cesar Nobrega Borges
+# Aluno: Matheus Augusto Silva Do Nascimento
 
 import cv2
 import os
