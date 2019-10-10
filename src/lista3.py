@@ -11,7 +11,7 @@ leitor_da_imagem1 = cv2.imread("../input/imagem1.jpeg", 1)
 leitor_da_imagem2 = cv2.imread("../input/imagem2.jpeg", 1)      
 
 # For responsavem por faze a operacao entre vetores de tamanhos iguais, 
-# pois so da para operar vetores se ambos foremdo forem do mesmo tamanho. Aqui tera um produto interno com escalar de 0 a 6. 
+# pois so da para operar vetores se ambos forem do mesmo tamanho. Aqui tera um produto interno com escalar de 0 a 6. 
 for i in range(0, 6):
 	nova_imagem = leitor_da_imagem1*(i/float(5)) + leitor_da_imagem2*(1-i/float(5))
 	
